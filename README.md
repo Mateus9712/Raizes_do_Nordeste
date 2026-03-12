@@ -1,6 +1,6 @@
 # 🍔 API Raízes do Nordeste
 
-Projeto de Back-end para a rede de lanchonetes gaúcha, focado em multicanalidade e segurança.
+Projeto de Back-end para a rede de lanchonetes nordestina, focado em multicanalidade e segurança.
 
 ## 🛠️ Como o professor deve testar:
 1. Instalar as bibliotecas: `pip install fastapi uvicorn sqlalchemy bcrypt pyjwt`
