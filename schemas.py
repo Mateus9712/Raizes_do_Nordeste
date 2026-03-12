@@ -13,11 +13,10 @@ class UsuarioResponse(BaseModel):
     nome: str
     email: str
     perfil: str
-    # Repare que NÃO colocamos a senha aqui! Essa é a essência da LGPD na API.
+    
     class Config:
         from_attributes = True
 
-# ... (Mantenha os esquemas de Produto, Pedido e Pagamento que já tínhamos) ...
 
 # --- PRODUTOS ---
 class ProdutoBase(BaseModel):
